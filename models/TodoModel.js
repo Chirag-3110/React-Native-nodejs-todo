@@ -7,6 +7,7 @@ const todos=new mongoSchema({
     Todo_Status:String,
     createdAt:String,
     dueTime:String,
+    userID:String,
 });
 
 module.exports=mongoose.model("todos",todos);
